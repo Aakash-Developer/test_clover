@@ -4,7 +4,8 @@
   "description": "Minimal demo to test Clover reception + kitchen printing via REST API (order create + lock)",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "dependencies": {
     "axios": "^1.6.0",
